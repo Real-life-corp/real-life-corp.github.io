@@ -5,7 +5,7 @@ permalink: /rlrpg/privacy-policy/
 
 <!--
   DRAFT. Every [[TODO: ...]] must be filled in or removed before publishing.
-  Open hosting and Sentry questions: see QUESTIONS-hebergement-sentry.md at the root of this repo.
+  Hosting answers used for sections 6-8: see REPONSES-hebergement-sentry.md at the root of this repo.
   Not legal advice: have it reviewed before launch if you can.
 -->
 
@@ -59,8 +59,8 @@ Sébastien Dubé is also the **person in charge of the protection of personal in
 |---|---|
 | **Sign-in sessions** | Creation date, last use and expiry of your sessions, so you stay signed in and can be signed out. |
 | **Push notification token** and device platform (iOS or Android) | To send you notifications (messages, connection requests, tags, quests, events, moderation decisions). |
-| **IP address** | To protect the Service against abuse through rate limiting. IP addresses used for rate limiting are kept only for a few minutes. Our hosting provider may also keep technical access logs containing IP addresses for a limited time (see section 8). |
-| **Technical error data** | When one of our servers encounters an error, technical details about it (error type, time, the request that failed) are sent to our error-monitoring provider so we can fix bugs. |
+| **IP address** | To protect the Service against abuse through rate limiting. IP addresses used for rate limiting are kept only for a few minutes. Our hosting and network providers may also keep technical access logs containing IP addresses for a limited time (see section 8). |
+| **Technical logs** | When our servers handle a request or encounter an error, technical details (time, request, error type) are written to server logs kept by our hosting provider, so we can fix bugs and investigate abuse. |
 | **Moderation data** | For each photo: a moderation status, a reason if it was rejected, and a "perceptual hash" (a short numeric fingerprint of the image used to detect re-uploaded duplicates). If photos are rejected as inappropriate, we keep a record of these "strikes" and of any resulting account suspension. |
 
 ### 2.3 Device permissions
@@ -86,7 +86,7 @@ We use your information only for the purposes below. Where the law requires a le
 | Purpose | Legal basis |
 |---|---|
 | **Provide the Service**: create and manage your account, publish your posts, show your feed, deliver your messages, run quests, skills and rewards, send account emails (verification, password reset). | Performance of our contract with you (the Terms of Use). |
-| **Keep the community safe**: automatically review photos, enforce our [[TODO: link to Terms of Use / Community Guidelines]], and suspend accounts that repeatedly break the rules. | Our legitimate interest in providing a safe service, and our legal obligations regarding illegal content. |
+| **Keep the community safe**: automatically review photos, enforce the community rules of our [Terms of Use](/rlrpg/terms-of-use/), and suspend accounts that repeatedly break the rules. | Our legitimate interest in providing a safe service, and our legal obligations regarding illegal content. |
 | **Send push notifications.** | Your consent, which you give and can withdraw through your device's notification settings. |
 | **Access your camera and photo library.** | Your consent, through your device's permission settings. |
 | **Maintain and secure the Service**: fix bugs, monitor errors, prevent abuse, spam and fraud (rate limiting). | Our legitimate interest in keeping the Service working and secure. |
@@ -143,12 +143,12 @@ We share personal information only with providers that help us run the Service, 
 
 | Provider | Purpose | Information involved |
 |---|---|---|
-| **Railway Corporation** | Hosting of our servers, databases, cache and stored photos | All data described in section 2 |
+| **Railway Corporation** | Hosting of our servers, databases, cache and stored photos, and server logs | All data described in section 2 |
+| **Cloudflare, Inc.** | Content delivery network (CDN) and protection of our servers against attacks: all traffic between the App and our servers passes through Cloudflare | Your IP address, basic device information and the content of the requests exchanged with our servers, in transit |
 | **Brevo (Sendinblue SAS)** | Sending verification and password reset emails | Email address, username, language, content of the email |
 | **Google Firebase Cloud Messaging** (Google LLC) | Delivering push notifications | Push token, notification content (for example sender name, message preview, quest title) |
 | **Apple Push Notification service** (Apple Inc.), iOS only | Delivering push notifications on iPhone | Push token, notification content |
 | **Anthropic, PBC** | Second-level review of some photos (section 4) | The photo and the tagged skills |
-| **Sentry** (Functional Software, Inc.) | Error monitoring | Technical error data, which may include identifiers contained in the failing request |
 | **Google Fonts** (Google LLC) | Downloading the fonts used by the App | Your IP address and basic device information, as with any web request |
 
 We may also disclose information:
@@ -161,9 +161,16 @@ We may also disclose information:
 
 ## 7. International transfers
 
-We are based in Canada and our servers and service providers are located in [[TODO: region(s), see the questions document]]. Your information may therefore be stored and processed outside your province, state or country, including in the United States, where data protection laws may differ from those where you live.
+We are based in Canada, but our servers are not:
 
-Before transferring personal information outside Québec, we assess whether it will receive adequate protection. For users in the European Economic Area, the United Kingdom or Switzerland, transfers rely on the adequacy decision recognizing Canada, and, for providers located elsewhere, on the European Commission's Standard Contractual Clauses or on the provider's certification under the EU-U.S. Data Privacy Framework, as applicable.
+- our servers, databases, cache and stored photos are hosted by Railway in the **United States** (California);
+- traffic to our servers passes through **Cloudflare**'s global network, which may handle it in a data center close to you;
+- our email provider **Brevo** is located in the **European Union** (France);
+- our other providers (Google, Apple and Anthropic) process information mainly in the **United States**.
+
+Your information is therefore stored and processed outside your province, state or country, in particular in the United States, where data protection laws may differ from those where you live.
+
+Before transferring personal information outside Québec, we assess whether it will receive adequate protection. For users in the European Economic Area, the United Kingdom or Switzerland, transfers to Canada rely on the adequacy decision recognizing Canada, and transfers to the United States or other countries rely on the European Commission's Standard Contractual Clauses or on the provider's certification under the EU-U.S. Data Privacy Framework, as applicable.
 
 ---
 
@@ -178,9 +185,8 @@ Before transferring personal information outside Québec, we assess whether it w
 | **Sign-in sessions** | Until they expire or are revoked. |
 | **Push notification tokens** | Until you sign out, the token becomes invalid, or you delete your account. |
 | **Rate-limiting IP addresses** | A few minutes. |
-| **Hosting access logs** | [[TODO: e.g. "up to X days", see the questions document]] |
-| **Error monitoring data** | [[TODO: e.g. "up to 30 days", see the questions document]] |
-| **Backups** | [[TODO: "Deleted data may remain in backups for up to X days" or "We do not keep backups", see the questions document]] |
+| **Server and access logs** (which may contain IP addresses) | Up to **30 days**. |
+| **Backups** | We do not currently keep backups of our databases or photos: deleted data is deleted for good. If we start keeping backups, we will update this policy with their retention period. |
 
 ---
 
@@ -190,7 +196,7 @@ You can delete your account at any time **directly in the App**: go to your **pr
 
 When you delete your account, we permanently delete your account in our authentication service (email, username, password hash, 2FA secret, sessions), your profile, profile picture, posts and their photos, comments, likes, messages, connections, game data, notification tokens and moderation records.
 
-Some information may remain for a limited time: copies in backups until they expire (see section 8), and information we must keep to comply with the law or resolve a dispute.
+Some information may remain for a limited time: entries in server logs until they expire (see section 8), and information we must keep to comply with the law or resolve a dispute.
 
 If you can no longer access the App, you can request the deletion of your account on [[TODO: https://real-life-corp.github.io/rlrpg/delete-account/]] or by writing to **reallifecorpo@gmail.com** from the email address associated with your account.
 
