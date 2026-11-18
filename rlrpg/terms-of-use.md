@@ -3,17 +3,10 @@ title: RLRPG Terms of Use
 permalink: /rlrpg/terms-of-use/
 ---
 
-<!--
-  DRAFT. Every [[TODO: ...]] must be filled in or removed before publishing.
-  Section 6 describes "report" and "block" features: they MUST exist in the App before publishing
-  (App Store Review Guideline 1.2 and Google Play User Generated Content policy).
-  Not legal advice: have it reviewed before launch if you can.
--->
-
 # RLRPG Terms of Use
 
-**Effective date:** [[TODO: date of publication]]
-**Last updated:** [[TODO: date]]
+**Effective date:** November 18, 2026
+**Last updated:** November 18, 2026
 
 These Terms of Use (the "**Terms**") form an agreement between you and **Sébastien Dubé** ("**we**", "**us**", "**our**"), the operator of the RLRPG mobile application (the "**App**") and the services behind it (together, the "**Service**").
 
@@ -96,7 +89,7 @@ RLRPG is about sharing real life in a friendly way. **We have zero tolerance for
 ## 6. Reporting and blocking
 
 - **Report** any post, comment, message or user that breaks these rules by writing to **reallifecorpo@gmail.com**.
-- **Block** any user from their profile [[TODO: exact path once implemented]]. A blocked user can no longer see your content, message you or interact with you.
+- **Block** any user from their profile: tap the **⋯** button, then **Block**. A blocked user can no longer message you, comment on your posts or send you quests, and their posts no longer appear in your feed. You can unblock people at any time in **Settings** > **Blocked users**.
 
 We review reports **within 24 hours**, remove objectionable content and take action against the user who posted it, up to the permanent termination of their account.
 
