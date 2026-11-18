@@ -95,7 +95,7 @@ RLRPG is about sharing real life in a friendly way. **We have zero tolerance for
 
 ## 6. Reporting and blocking
 
-- **Report** any post, comment, message or user that breaks these rules using the report option in the App [[TODO: exact path once implemented]]. You can also write to **reallifecorpo@gmail.com**.
+- **Report** any post, comment, message or user that breaks these rules by writing to **reallifecorpo@gmail.com**.
 - **Block** any user from their profile [[TODO: exact path once implemented]]. A blocked user can no longer see your content, message you or interact with you.
 
 We review reports **within 24 hours**, remove objectionable content and take action against the user who posted it, up to the permanent termination of their account.

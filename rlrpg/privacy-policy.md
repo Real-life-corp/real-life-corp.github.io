@@ -3,16 +3,10 @@ title: RLRPG Privacy Policy
 permalink: /rlrpg/privacy-policy/
 ---
 
-<!--
-  DRAFT. Every [[TODO: ...]] must be filled in or removed before publishing.
-  Hosting answers used for sections 6-8: see REPONSES-hebergement-sentry.md at the root of this repo.
-  Not legal advice: have it reviewed before launch if you can.
--->
-
 # RLRPG Privacy Policy
 
-**Effective date:** [[TODO: date of publication]]
-**Last updated:** [[TODO: date]]
+**Effective date:** November 18, 2026
+**Last updated:** November 18, 2026
 
 This Privacy Policy explains how Sébastien Dubé ("**we**", "**us**", "**our**") collects, uses, shares and protects your personal information when you use the RLRPG mobile application (the "**App**") and the services behind it, including the RLRPG sign-in pages (together, the "**Service**").
 
@@ -60,7 +54,7 @@ Sébastien Dubé is also the **person in charge of the protection of personal in
 | **Sign-in sessions** | Creation date, last use and expiry of your sessions, so you stay signed in and can be signed out. |
 | **Push notification token** and device platform (iOS or Android) | To send you notifications (messages, connection requests, tags, quests, events, moderation decisions). |
 | **IP address** | To protect the Service against abuse through rate limiting. IP addresses used for rate limiting are kept only for a few minutes. Our hosting and network providers may also keep technical access logs containing IP addresses for a limited time (see section 8). |
-| **Technical logs** | When our servers handle a request or encounter an error, technical details (time, request, error type) are written to server logs kept by our hosting provider, so we can fix bugs and investigate abuse. |
+| **Technical logs** | When our servers handle a request or encounter an error, technical details (time, request, error type) are written to server logs kept by our hosting provider, so we can fix bugs and investigate abuse. When error monitoring is enabled, details of server errors are also sent to our error-monitoring provider (see section 6). |
 | **Moderation data** | For each photo: a moderation status, a reason if it was rejected, and a "perceptual hash" (a short numeric fingerprint of the image used to detect re-uploaded duplicates). If photos are rejected as inappropriate, we keep a record of these "strikes" and of any resulting account suspension. |
 
 ### 2.3 Device permissions
@@ -74,8 +68,6 @@ The App asks for the following permissions. You can refuse or revoke them at any
 We do **not** collect your precise location, your contacts, your advertising identifier, or your activity in other apps.
 
 **Photo metadata:** photos taken with a phone can contain hidden information (metadata) such as the date and the GPS location where they were taken. We remove this metadata from your photos when they are uploaded, before they are stored or shown to anyone.
-
-<!-- [[TODO: only publish the paragraph above once the EXIF removal issue is shipped.]] -->
 
 ---
 
@@ -101,7 +93,7 @@ We **do not sell** your personal information, we **do not rent** it, and we **do
 To keep the App safe and make the game fair, every photo you post goes through an automated review before it is published:
 
 1. **On our own servers**, an image-analysis model (CLIP) checks whether the photo is too dark or too blurry, whether it is likely to contain nudity or sexual content, and whether it actually shows the skills you tagged.
-2. **When these checks cannot decide**, the photo and the skills you tagged are sent to **Anthropic** (the provider of the Claude AI model) for a second automated review. Anthropic processes the photo only to return a decision to us. [[TODO: check Anthropic's commercial API terms at publication. As of writing, API inputs are not used to train their models and are kept only for a limited period for abuse monitoring. Update this sentence accordingly.]]
+2. **When these checks cannot decide**, the photo and the skills you tagged are sent to **Anthropic** (the provider of the Claude AI model) for a second automated review. Anthropic processes the photo only to return a decision to us. Anthropic does not use these photos to train its models and keeps them only for a limited period for abuse monitoring.
 
 Possible outcomes:
 
@@ -148,6 +140,7 @@ We share personal information only with providers that help us run the Service, 
 | **Brevo (Sendinblue SAS)** | Sending verification and password reset emails | Email address, username, language, content of the email |
 | **Google Firebase Cloud Messaging** (Google LLC) | Delivering push notifications | Push token, notification content (for example sender name, message preview, quest title) |
 | **Apple Push Notification service** (Apple Inc.), iOS only | Delivering push notifications on iPhone | Push token, notification content |
+| **Sentry** (Functional Software, Inc.), when enabled | Monitoring errors on our servers so we can fix bugs | Technical details of the error (time, request, error type and location in our code). Error reports are not linked to your account and do not include your password or the content of your photos |
 | **Anthropic, PBC** | Second-level review of some photos (section 4) | The photo and the tagged skills |
 | **Google Fonts** (Google LLC) | Downloading the fonts used by the App | Your IP address and basic device information, as with any web request |
 
@@ -166,7 +159,7 @@ We are based in Canada, but our servers are not:
 - our servers, databases, cache and stored photos are hosted by Railway in the **United States** (California);
 - traffic to our servers passes through **Cloudflare**'s global network, which may handle it in a data center close to you;
 - our email provider **Brevo** is located in the **European Union** (France);
-- our other providers (Google, Apple and Anthropic) process information mainly in the **United States**.
+- our other providers (Google, Apple, Anthropic and Sentry) process information mainly in the **United States**.
 
 Your information is therefore stored and processed outside your province, state or country, in particular in the United States, where data protection laws may differ from those where you live.
 
@@ -198,7 +191,7 @@ When you delete your account, we permanently delete your account in our authenti
 
 Some information may remain for a limited time: entries in server logs until they expire (see section 8), and information we must keep to comply with the law or resolve a dispute.
 
-If you can no longer access the App, you can request the deletion of your account on [[TODO: https://real-life-corp.github.io/rlrpg/delete-account/]] or by writing to **reallifecorpo@gmail.com** from the email address associated with your account.
+If you can no longer access the App, you can request the deletion of your account on [your account page](https://auth.rlcorp.ca/myaccount) or by writing to **reallifecorpo@gmail.com** from the email address associated with your account.
 
 ---
 
