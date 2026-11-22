@@ -45,6 +45,7 @@ Sébastien Dubé is also the **person in charge of the protection of personal in
 | **Private messages** | Messages, replies, reactions (emojis), edits, conversation titles and conversation images, so they can be delivered to the participants of the conversation. We also record which message you last read to show read receipts. |
 | **Social connections** | Connection requests, the people connected to you and the relationship level you give each of them (see section 5). |
 | **Game data** | Skills, levels, experience points, quests and their progress, events, titles, unlocked rewards, themes, fonts and profile picture frames. |
+| **Reports** | [[TODO: once the report feature ships: what is stored when you report content or an account (reporter, reported content or account, reason, date), and that the reported user is not told who reported them.]] |
 | **Messages you send us** | If you contact us, we keep your message and our answer to handle your request. |
 
 ### 2.2 Information collected automatically
@@ -179,6 +180,7 @@ Before transferring personal information outside Québec, we assess whether it w
 | **Push notification tokens** | Until you sign out, the token becomes invalid, or you delete your account. |
 | **Rate-limiting IP addresses** | A few minutes. |
 | **Server and access logs** (which may contain IP addresses) | Up to **30 days**. |
+| **Reports** | [[TODO: retention of reports, e.g. as long as needed to handle the report and any follow-up, or as required by law.]] |
 | **Backups** | We do not currently keep backups of our databases or photos: deleted data is deleted for good. If we start keeping backups, we will update this policy with their retention period. |
 
 ---

@@ -88,8 +88,10 @@ RLRPG is about sharing real life in a friendly way. **We have zero tolerance for
 
 ## 6. Reporting and blocking
 
-- **Report** any post, comment, message or user that breaks these rules by writing to **reallifecorpo@gmail.com**.
+- **Report** any post, comment, message or user that breaks these rules using the **Report** option in the App [[TODO: exact path for a post and for an account, e.g. "tap ⋯ then Report"; list what can be reported (posts, accounts, comments, messages?) and the reasons offered]], or by writing to **reallifecorpo@gmail.com**. [[TODO: say whether the reported user is notified (normally not).]]
 - **Block** any user from their profile: tap the **⋯** button, then **Block**. A blocked user can no longer message you, comment on your posts or send you quests, and their posts no longer appear in your feed. You can unblock people at any time in **Settings** > **Blocked users**.
+
+Reports about the safety of children are handled as described in our [Child Safety Standards](/rlrpg/child-safety/).
 
 We review reports **within 24 hours**, remove objectionable content and take action against the user who posted it, up to the permanent termination of their account.
 
