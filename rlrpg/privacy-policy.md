@@ -61,7 +61,7 @@ Sébastien Dubé is also the **person in charge of the protection of personal in
 
 The App asks for the following permissions. You can refuse or revoke them at any time in your device settings; some features will then not work.
 
-- **Camera** (and **microphone**, which the camera feature requires on iOS): to take photos for your posts. We do not record or keep audio.
+- **Camera**: to take photos for your posts.
 - **Photo library**: to choose existing photos for your posts or profile picture. Only the photos you select are uploaded.
 - **Notifications**: to send you push notifications.
 
